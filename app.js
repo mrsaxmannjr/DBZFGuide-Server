@@ -33,7 +33,7 @@ app.get("/", (request, response) => {
 });
 
 app.post("/", (request, response) => {
-  teams.push(request.body)
+  teams.unshift(request.body)
   response.json(teams);
 });
 
