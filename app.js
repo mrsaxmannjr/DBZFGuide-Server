@@ -6,7 +6,7 @@ const data = require("./Data/data");
 const bios = data.bios;
 const stats = data.stats;
 var result = [];
-var teams = data.teams;
+var teams = [];
 
 function combine(data1, data2) {
   for (var i = 0; i < data1.length; i++) {

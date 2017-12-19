@@ -33,8 +33,6 @@ var stats = [
   }
 ];
 
-var teams = [];
-
 function combine(data1, data2) {
   var result = [];
   for (var i = 0; i < data1.length; i++) {
