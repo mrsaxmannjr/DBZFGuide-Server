@@ -20,7 +20,7 @@ var stats = [
     Technique: "A",
     Reach: "A",
     Energy: "A",
-    "Ease of use": "SS",
+    "Ease of use": "SS"
   },
   {
     name: "Vegeta",
@@ -29,28 +29,32 @@ var stats = [
     Technique: "B",
     Reach: "A",
     Energy: "S",
-    "Ease of use": "SS",
+    "Ease of use": "SS"
   }
 ];
 
-// function combine(data1, data2) {
-//   var result = [];
-//   for (var i = 0; i < data1.length; i++) {
-//     result.push(data1[i]);
-//     for (var j = 0; j < data2.length; j++) {
-//       if (result[i].name === data2[j].name) {
-//         result[i].strength = data2[j].strength
-//         result[i].specialMoves = data2[j].specialMoves
-//         result[i].combos = data2[j].combos
-//       }
-//     }
-//   }
-//   return result;
-// }
-//
-// console.log(combine(bios, stats));
+var teams = [];
+
+function combine(data1, data2) {
+  var result = [];
+  for (var i = 0; i < data1.length; i++) {
+    result.push(data1[i]);
+    for (var j = 0; j < data2.length; j++) {
+      if (result[i].name === data2[j].name) {
+        result[i].Power = data2[j].Power;
+        result[i].Speed = data2[j].Speed;
+        result[i].Technique = data2[j].Technique;
+        result[i].Reach = data2[j].Reach;
+        result[i].Energy = data2[j].Energy;
+        result[i]["Ease of use"] = data2[j]["Ease of use"];
+      }
+    }
+  }
+  return result;
+}
 
 module.exports = {
+  combine,
   bios,
   stats
 };
