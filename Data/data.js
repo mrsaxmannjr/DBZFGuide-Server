@@ -3,13 +3,74 @@ var bios = [
     name: "Goku",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/goku.png"
+    image: "Assets/Goku.png"
   },
   {
     name: "Vegeta",
     race: "Saiyan",
-    bio: "A balanced fighter with good offensive and defensive capabilities"
-  }
+    bio: "A balanced fighter with good offensive and defensive capabilities",
+    image: "Assets/Vegeta.png"
+  },
+  {
+    name: "Android-16",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Android-16.png"
+  },
+  {
+    name: "Android-18",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Android-18.png"
+  },
+  {
+    name: "Freeza",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Freeza.png"
+  },
+  {
+    name: "Ginyu",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Ginyu.png"
+  },
+  {
+    name: "Gohan",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Gohan.png"
+  },
+  {
+    name: "Krillin",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Krillin.png"
+  },
+  {
+    name: "Piccolo",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Piccolo.png"
+  },
+  {
+    name: "Tien",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Tien.png"
+  },
+  {
+    name: "Trunks",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Trunks.png"
+  },
+  {
+    name: "Yamcha",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "Assets/Yamcha.png"
+  },
 ];
 
 var stats = [
@@ -30,7 +91,97 @@ var stats = [
     Reach: "A",
     Energy: "S",
     "Ease of use": "SS"
-  }
+  },
+  {
+    name: "Android-16",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Android-18",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Freeza",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Ginyu",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Gohan",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Krillin",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Piccolo",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Tien",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Trunks",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
+  {
+    name: "Yamcha",
+    Power: "S",
+    Speed: "B",
+    Technique: "A",
+    Reach: "A",
+    Energy: "A",
+    "Ease of use": "SS"
+  },
 ];
 
 function combine(data1, data2) {
