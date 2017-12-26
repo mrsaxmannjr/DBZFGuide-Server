@@ -32,6 +32,10 @@ app.get("/", (request, response) => {
   response.json(result);
 });
 
+app.get("/saved-teamz", (request, response) => {
+  response.json(teams);
+});
+
 app.post("/", (request, response) => {
   teams.unshift(request.body);
   response.json(teams);
