@@ -7,6 +7,7 @@ const bios = data.bios;
 const stats = data.stats;
 var result = [];
 var teams = [];
+var teamEdit;
 
 function combine(data1, data2) {
   for (var i = 0; i < data1.length; i++) {
@@ -38,6 +39,16 @@ app.get("/saved-teamz", (request, response) => {
 
 app.post("/", (request, response) => {
   teams.unshift(request.body);
+  response.json(teams);
+});
+
+app.post("/saved-teamz", (request, response) => {
+  teamEdit = request.body;
+  for (var i = 0; i < teams.length; i++) {
+    if (teams[i].teamName === teamEdit.teamName) {
+      teams[i] = teamEdit;
+    }
+  }
   response.json(teams);
 });
 
