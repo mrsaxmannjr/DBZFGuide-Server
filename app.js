@@ -49,7 +49,7 @@ app.post("/saved-teamz", (request, response) => {
       teams[i] = teamEdit;
     }
   }
-  response.json(teams);
+  response.json("Team Changes Saved!");
 });
 
 app.listen(process.env.PORT || 3000, () => {
