@@ -8,6 +8,7 @@ const stats = data.stats;
 var result = [];
 var teams = [];
 var teamEdit;
+var teamNameMsg;
 
 function combine(data1, data2) {
   for (var i = 0; i < data1.length; i++) {
@@ -47,9 +48,10 @@ app.post("/saved-teamz", (request, response) => {
   for (var i = 0; i < teams.length; i++) {
     if (teams[i].teamName === teamEdit.teamName) {
       teams[i] = teamEdit;
+      teamNameMsg = teams[i].teamName;
     }
   }
-  response.json("Team Changes Saved!");
+  response.json("Team " + teamNameMsg + " changes saved!");
 });
 
 app.listen(process.env.PORT || 3000, () => {
