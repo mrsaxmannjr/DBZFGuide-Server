@@ -51,7 +51,7 @@ app.post("/saved-teamz", (request, response) => {
       teamNameMsg = teams[i].teamName;
     }
   }
-  response.json("Team " + teamNameMsg + " changes saved!");
+  response.json("Team " + teamNameMsg + " changes were saved!");
 });
 
 app.listen(process.env.PORT || 3000, () => {
