@@ -3,74 +3,68 @@ var bios = [
     name: "Goku",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Goku.png"
+    image: "Assets/Goku.jpg"
   },
   {
     name: "Vegeta",
     race: "Saiyan",
     bio: "A balanced fighter with good offensive and defensive capabilities",
-    image: "Assets/Vegeta.png"
+    image: "Assets/Vegeta.jpg"
   },
   {
     name: "Android-16",
-    race: "Saiyan",
+    race: "Android",
     bio: "The all-rounder anyone can use!",
     image: "Assets/Android-16.jpg"
   },
   {
     name: "Android-18",
-    race: "Saiyan",
+    race: "Android",
     bio: "The all-rounder anyone can use!",
     image: "Assets/Android-18.jpg"
   },
   {
-    name: "Freeza",
+    name: "Frieza",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Freeza.png"
+    image: "Assets/Frieza.jpg"
   },
   {
-    name: "Ginyu",
+    name: "Maijin-Bu",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Ginyu.png"
+    image: "Assets/Maijin-Bu.jpg"
   },
   {
     name: "Gohan",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Gohan.png"
+    image: "Assets/Gohan.jpg"
   },
   {
     name: "Krillin",
-    race: "Saiyan",
+    race: "Human",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Krillin.png"
+    image: "Assets/Krillin.jpg"
   },
   {
     name: "Piccolo",
-    race: "Saiyan",
+    race: "Namekian",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Piccolo.png"
+    image: "Assets/Piccolo.jpg"
   },
   {
-    name: "Tien",
+    name: "Cell",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Tien.png"
+    image: "Assets/Cell.jpg"
   },
   {
     name: "Trunks",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Trunks.png"
-  },
-  {
-    name: "Yamcha",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "Assets/Yamcha.png"
-  },
+    image: "Assets/Trunks.jpg"
+  }
 ];
 
 var stats = [
