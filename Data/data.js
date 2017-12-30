@@ -270,7 +270,7 @@ var stats = [
     Energy: 2,
     StatTotal: 16,
     "Ease of use": "SS",
-    StatImg: "/Assets/Character-Statsheets/adultGohanStats.png"
+    StatImg: "/Assets/Character-Statsheets/adultGohanStats.jpg"
   },
   {
     name: "Beerus",
@@ -325,7 +325,7 @@ var stats = [
     Energy: 4,
     StatTotal: 15,
     "Ease of use": "SS",
-    StatImg: "/Assets/Character-Statsheets/gotenksStats.png"
+    StatImg: "/Assets/Character-Statsheets/gotenksStats.jpg"
   },
   {
     name: "Hit",
@@ -347,7 +347,7 @@ var stats = [
     Energy: 4,
     StatTotal: 19,
     "Ease of use": "SS",
-    StatImg: "/Assets/Character-Statsheets/kidBuuStats.png"
+    StatImg: "/Assets/Character-Statsheets/kidBuuStats.jpg"
   },
   {
     name: "Nappa",
