@@ -24,10 +24,10 @@ var bios = [
     image: "Assets/Android-18.jpg"
   },
   {
-    name: "Frieza",
+    name: "Freeza",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Frieza.jpg"
+    image: "Assets/Freeza.jpg"
   },
   {
     name: "Trunks",
@@ -60,21 +60,22 @@ var bios = [
     image: "Assets/Cell.jpg"
   },
   {
-    name: "Maijin Bu",
+    name: "Majin Buu",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Maijin-Bu.jpg"
+    image: "Assets/Majin-Buu.jpg"
   }
 ];
 
 var stats = [
   {
     name: "Goku",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 4,
+    Speed: 2,
+    Technique: 3,
+    Reach: 3,
+    Energy: 3,
+    StatTotal: 15,
     "Ease of use": "SS"
   },
   {
