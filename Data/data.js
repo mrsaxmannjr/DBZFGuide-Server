@@ -21,7 +21,7 @@ var bios = [
     name: "Android-18",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Android-18.png"
+    image: "Assets/Android-18.jpg"
   },
   {
     name: "Freeza",
