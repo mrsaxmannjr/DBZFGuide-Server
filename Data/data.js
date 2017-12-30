@@ -12,13 +12,13 @@ var bios = [
     image: "Assets/Vegeta.jpg"
   },
   {
-    name: "Android-16",
+    name: "Android 16",
     race: "Android",
     bio: "The all-rounder anyone can use!",
     image: "Assets/Android-16.jpg"
   },
   {
-    name: "Android-18",
+    name: "Android 18",
     race: "Android",
     bio: "The all-rounder anyone can use!",
     image: "Assets/Android-18.jpg"
@@ -30,10 +30,10 @@ var bios = [
     image: "Assets/Frieza.jpg"
   },
   {
-    name: "Maijin-Bu",
+    name: "Trunks",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Maijin-Bu.jpg"
+    image: "Assets/Trunks.jpg"
   },
   {
     name: "Gohan",
@@ -60,10 +60,10 @@ var bios = [
     image: "Assets/Cell.jpg"
   },
   {
-    name: "Trunks",
+    name: "Maijin Bu",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Trunks.jpg"
+    image: "Assets/Maijin-Bu.jpg"
   }
 ];
 
@@ -87,7 +87,7 @@ var stats = [
     "Ease of use": "SS"
   },
   {
-    name: "Android-16",
+    name: "Android 16",
     Power: "S",
     Speed: "B",
     Technique: "A",
@@ -96,7 +96,7 @@ var stats = [
     "Ease of use": "SS"
   },
   {
-    name: "Android-18",
+    name: "Android 18",
     Power: "S",
     Speed: "B",
     Technique: "A",
@@ -105,7 +105,7 @@ var stats = [
     "Ease of use": "SS"
   },
   {
-    name: "Freeza",
+    name: "Frieza",
     Power: "S",
     Speed: "B",
     Technique: "A",
@@ -114,7 +114,7 @@ var stats = [
     "Ease of use": "SS"
   },
   {
-    name: "Ginyu",
+    name: "Maijin Bu",
     Power: "S",
     Speed: "B",
     Technique: "A",
@@ -150,7 +150,7 @@ var stats = [
     "Ease of use": "SS"
   },
   {
-    name: "Tien",
+    name: "Cell",
     Power: "S",
     Speed: "B",
     Technique: "A",
@@ -166,16 +166,7 @@ var stats = [
     Reach: "A",
     Energy: "A",
     "Ease of use": "SS"
-  },
-  {
-    name: "Yamcha",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
-    "Ease of use": "SS"
-  },
+  }
 ];
 
 function combine(data1, data2) {
