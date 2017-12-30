@@ -64,6 +64,78 @@ var bios = [
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
     image: "/Assets/Characters/Majin-Buu.jpg"
+  },
+  {
+    name: "Adult Gohan",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/AdultGohan.jpg"
+  },
+  {
+    name: "Beerus",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Beerus.jpg"
+  },
+  {
+    name: "Ginyu",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Ginyu.jpg"
+  },
+  {
+    name: "Goku Black",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/GokuBlack.jpg"
+  },
+  {
+    name: "SSJB Goku",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/GokuBlue.jpg"
+  },
+  {
+    name: "Gotenks",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Gotenks.jpg"
+  },
+  {
+    name: "Hit",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Hit.jpg"
+  },
+  {
+    name: "Kid Buu",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/KidBuu.jpg"
+  },
+  {
+    name: "Nappa",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Nappa.jpg"
+  },
+  {
+    name: "Tien",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Tien.jpg"
+  },
+  {
+    name: "SSJB Vegeta",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/VegetaBlue.jpg"
+  },
+  {
+    name: "Yamcha",
+    race: "Saiyan",
+    bio: "The all-rounder anyone can use!",
+    image: "/Assets/Characters/Yamcha.jpg"
   }
 ];
 
@@ -188,6 +260,138 @@ var stats = [
     StatTotal: 16,
     "Ease of use": "SS",
     StatImg: "/Assets/Character-Statsheets/trunksStats.png"
+  },
+  {
+    name: "Adult Gohan",
+    Power: 3,
+    Speed: 4,
+    Technique: 3,
+    Reach: 4,
+    Energy: 2,
+    StatTotal: 16,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/adultGohanStats.png"
+  },
+  {
+    name: "Beerus",
+    Power: 4,
+    Speed: 4,
+    Technique: 3,
+    Reach: 5,
+    Energy: 5,
+    StatTotal: 21,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/beerusStats.png"
+  },
+  {
+    name: "Goku Black",
+    Power: 3,
+    Speed: 4,
+    Technique: 4,
+    Reach: 3,
+    Energy: 4,
+    StatTotal: 18,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/blackStats.png"
+  },
+  {
+    name: "Ginyu",
+    Power: 4,
+    Speed: 2,
+    Technique: 3,
+    Reach: 4,
+    Energy: 2,
+    StatTotal: 15,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/ginyuStats.png"
+  },
+  {
+    name: "SSJB Goku",
+    Power: 4,
+    Speed: 5,
+    Technique: 3,
+    Reach: 4,
+    Energy: 2,
+    StatTotal: 18,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/gokussbStats.png"
+  },
+  {
+    name: "Gotenks",
+    Power: 3,
+    Speed: 4,
+    Technique: 1,
+    Reach: 3,
+    Energy: 4,
+    StatTotal: 15,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/gotenksStats.png"
+  },
+  {
+    name: "Hit",
+    Power: 4,
+    Speed: 5,
+    Technique: 3,
+    Reach: 4,
+    Energy: 1,
+    StatTotal: 17,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/hitStats.png"
+  },
+  {
+    name: "Kid Buu",
+    Power: 4,
+    Speed: 4,
+    Technique: 3,
+    Reach: 4,
+    Energy: 4,
+    StatTotal: 19,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/kidBuuStats.png"
+  },
+  {
+    name: "Nappa",
+    Power: 4,
+    Speed: 1,
+    Technique: 4,
+    Reach: 3,
+    Energy: 2,
+    StatTotal: 14,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/nappaStats.png"
+  },
+  {
+    name: "Tien",
+    Power: 3,
+    Speed: 3,
+    Technique: 3,
+    Reach: 3,
+    Energy: 2,
+    StatTotal: 14,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/tienStats.png"
+  },
+  {
+    name: "SSJB Vegeta",
+    Power: 5,
+    Speed: 4,
+    Technique: 2,
+    Reach: 3,
+    Energy: 4,
+    StatTotal: 18,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/vegetassbStats.png"
+  },
+  {
+    name: "Yamcha",
+    Power: 2,
+    Speed: 4,
+    Technique: 2,
+    Reach: 3,
+    Energy: 2,
+    StatTotal: 13,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/yamchaStats.png"
   }
 ];
 
