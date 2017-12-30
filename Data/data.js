@@ -76,7 +76,8 @@ var stats = [
     Reach: 3,
     Energy: 3,
     StatTotal: 15,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/gokuStats.png"
   },
   {
     name: "Vegeta",
@@ -86,7 +87,8 @@ var stats = [
     Reach: 3,
     Energy: 4,
     StatTotal: 15,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/vegetaStats.png"
   },
   {
     name: "Android 16",
@@ -96,7 +98,8 @@ var stats = [
     Reach: 2,
     Energy: 3,
     StatTotal: 14,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/android16Stats.png"
   },
   {
     name: "Android 18",
@@ -106,7 +109,8 @@ var stats = [
     Reach: 3,
     Energy: 3,
     StatTotal: 14,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/android18Stats.png"
   },
   {
     name: "Freeza",
@@ -116,7 +120,8 @@ var stats = [
     Reach: 4,
     Energy: 4,
     StatTotal: 17,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/freezaStats.png"
   },
   {
     name: "Majin Buu",
@@ -126,7 +131,8 @@ var stats = [
     Reach: 4,
     Energy: 4,
     StatTotal: 17,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/majinbuuStats.png"
   },
   {
     name: "Gohan",
@@ -136,7 +142,8 @@ var stats = [
     Reach: 2,
     Energy: 3,
     StatTotal: 15,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/gohanStats.png"
   },
   {
     name: "Krillin",
@@ -146,7 +153,8 @@ var stats = [
     Reach: 4,
     Energy: 3,
     StatTotal: 13,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/krillinStats.png"
   },
   {
     name: "Piccolo",
@@ -156,7 +164,8 @@ var stats = [
     Reach: 4,
     Energy: 3,
     StatTotal: 16,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/piccoloStats.png"
   },
   {
     name: "Cell",
@@ -166,7 +175,8 @@ var stats = [
     Reach: 3,
     Energy: 3,
     StatTotal: 17,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/cellStats.png"
   },
   {
     name: "Trunks",
@@ -176,7 +186,8 @@ var stats = [
     Reach: 4,
     Energy: 2,
     StatTotal: 16,
-    "Ease of use": "SS"
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/trunksStats.png"
   }
 ];
 
@@ -191,7 +202,9 @@ function combine(data1, data2) {
         result[i].Technique = data2[j].Technique;
         result[i].Reach = data2[j].Reach;
         result[i].Energy = data2[j].Energy;
+        result[i].StatTotal = data2[j].StatTotal;
         result[i]["Ease of use"] = data2[j]["Ease of use"];
+        result[i].StatImg = data2[j].StatImg;
       }
     }
   }

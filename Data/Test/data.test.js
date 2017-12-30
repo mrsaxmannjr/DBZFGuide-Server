@@ -6,19 +6,21 @@ var data1 = [
     name: "Goku",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/goku.png"
+    image: "/Assets/Characters/Goku.jpg"
   }
 ];
 
 var data2 = [
   {
     name: "Goku",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 4,
+    Speed: 2,
+    Technique: 3,
+    Reach: 3,
+    Energy: 3,
+    StatTotal: 15,
     "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/gokuStats.png"
   }
 ];
 
@@ -27,13 +29,15 @@ var combinedResult = [
     name: "Goku",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/goku.png",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
-    "Ease of use": "SS"
+    image: "/Assets/Characters/Goku.jpg",
+    Power: 4,
+    Speed: 2,
+    Technique: 3,
+    Reach: 3,
+    Energy: 3,
+    StatTotal: 15,
+    "Ease of use": "SS",
+    StatImg: "/Assets/Character-Statsheets/gokuStats.png"
   }
 ];
 

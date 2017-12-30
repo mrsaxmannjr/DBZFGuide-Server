@@ -20,7 +20,9 @@ function combine(data1, data2) {
         result[i].Technique = data2[j].Technique;
         result[i].Reach = data2[j].Reach;
         result[i].Energy = data2[j].Energy;
+        result[i].StatTotal = data2[j].StatTotal;
         result[i]["Ease of use"] = data2[j]["Ease of use"];
+        result[i].StatImg = data2[j].StatImg;
       }
     }
   }
