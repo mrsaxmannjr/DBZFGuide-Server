@@ -3,67 +3,67 @@ var bios = [
     name: "Goku",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Goku.jpg"
+    image: "/Assets/Characters/Goku.jpg"
   },
   {
     name: "Vegeta",
     race: "Saiyan",
     bio: "A balanced fighter with good offensive and defensive capabilities",
-    image: "Assets/Vegeta.jpg"
+    image: "/Assets/Characters/Vegeta.jpg"
   },
   {
     name: "Android 16",
     race: "Android",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Android-16.jpg"
+    image: "/Assets/Characters/Android-16.jpg"
   },
   {
     name: "Android 18",
     race: "Android",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Android-18.jpg"
+    image: "/Assets/Characters/Android-18.jpg"
   },
   {
     name: "Freeza",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Freeza.jpg"
+    image: "/Assets/Characters/Freeza.jpg"
   },
   {
     name: "Trunks",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Trunks.jpg"
+    image: "/Assets/Characters/Trunks.jpg"
   },
   {
     name: "Gohan",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Gohan.jpg"
+    image: "/Assets/Characters/Gohan.jpg"
   },
   {
     name: "Krillin",
     race: "Human",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Krillin.jpg"
+    image: "/Assets/Characters/Krillin.jpg"
   },
   {
     name: "Piccolo",
     race: "Namekian",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Piccolo.jpg"
+    image: "/Assets/Characters/Piccolo.jpg"
   },
   {
     name: "Cell",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Cell.jpg"
+    image: "/Assets/Characters/Cell.jpg"
   },
   {
     name: "Majin Buu",
     race: "Saiyan",
     bio: "The all-rounder anyone can use!",
-    image: "Assets/Majin-Buu.jpg"
+    image: "/Assets/Characters/Majin-Buu.jpg"
   }
 ];
 
@@ -80,92 +80,102 @@ var stats = [
   },
   {
     name: "Vegeta",
-    Power: "A",
-    Speed: "A",
-    Technique: "B",
-    Reach: "A",
-    Energy: "S",
+    Power: 3,
+    Speed: 3,
+    Technique: 2,
+    Reach: 3,
+    Energy: 4,
+    StatTotal: 15,
     "Ease of use": "SS"
   },
   {
     name: "Android 16",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 4,
+    Speed: 1,
+    Technique: 4,
+    Reach: 2,
+    Energy: 3,
+    StatTotal: 14,
     "Ease of use": "SS"
   },
   {
     name: "Android 18",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 3,
+    Speed: 3,
+    Technique: 2,
+    Reach: 3,
+    Energy: 3,
+    StatTotal: 14,
     "Ease of use": "SS"
   },
   {
-    name: "Frieza",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    name: "Freeza",
+    Power: 3,
+    Speed: 3,
+    Technique: 3,
+    Reach: 4,
+    Energy: 4,
+    StatTotal: 17,
     "Ease of use": "SS"
   },
   {
-    name: "Maijin Bu",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    name: "Majin Buu",
+    Power: 4,
+    Speed: 1,
+    Technique: 4,
+    Reach: 4,
+    Energy: 4,
+    StatTotal: 17,
     "Ease of use": "SS"
   },
   {
     name: "Gohan",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 5,
+    Speed: 4,
+    Technique: 1,
+    Reach: 2,
+    Energy: 3,
+    StatTotal: 15,
     "Ease of use": "SS"
   },
   {
     name: "Krillin",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 2,
+    Speed: 3,
+    Technique: 1,
+    Reach: 4,
+    Energy: 3,
+    StatTotal: 13,
     "Ease of use": "SS"
   },
   {
     name: "Piccolo",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 3,
+    Speed: 2,
+    Technique: 4,
+    Reach: 4,
+    Energy: 3,
+    StatTotal: 16,
     "Ease of use": "SS"
   },
   {
     name: "Cell",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 4,
+    Speed: 3,
+    Technique: 4,
+    Reach: 3,
+    Energy: 3,
+    StatTotal: 17,
     "Ease of use": "SS"
   },
   {
     name: "Trunks",
-    Power: "S",
-    Speed: "B",
-    Technique: "A",
-    Reach: "A",
-    Energy: "A",
+    Power: 3,
+    Speed: 3,
+    Technique: 4,
+    Reach: 4,
+    Energy: 2,
+    StatTotal: 16,
     "Ease of use": "SS"
   }
 ];
