@@ -36,6 +36,10 @@ app.get("/", (request, response) => {
   response.json(result);
 });
 
+app.get("/fighterZ", (request, response) => {
+  response.json(result);
+});
+
 app.get("/saved-teamz", (request, response) => {
   response.json(teams);
 });
