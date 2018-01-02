@@ -1,141 +1,141 @@
 var bios = [
   {
     name: "Goku",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Goku.jpg"
+    bio: "The all-rounder anyone can use!  An easy to use fighter, recommended for beginners.  Use your KAMEHAMEHA to get out of a pinch!  KAMEHAMEHA can one-sidedly crush your foes!",
+    image: "/Assets/Characters/Goku.jpg",
+    url: "http://dragonball.wikia.com/wiki/Goku"
   },
   {
     name: "Vegeta",
-    race: "Saiyan",
-    bio: "A balanced fighter with good offensive and defensive capabilities",
-    image: "/Assets/Characters/Vegeta.jpg"
+    bio: "A balanced fighter with good offensive and defensive capabilities.  Keep them away with your RAPID ENERGY BLASTS.  Deal with attacks using your CRUSHER KNEE KICK.  Dispatch your enemies with your polished fighting skills!",
+    image: "/Assets/Characters/Vegeta.jpg",
+    url: "http://dragonball.wikia.com/wiki/Vegeta"
   },
   {
     name: "Android 16",
-    race: "Android",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Android-16.jpg"
+    bio: "A tough-bodied close range specialist.  Slow and lacking long-range approaches but unparallelled up close!  Jumping into your enemies personal space is the key to victory.  Obliterate your enemey with your powerful grab HELL'S FLASH!",
+    image: "/Assets/Characters/Android-16.jpg",
+    url: "http://dragonball.wikia.com/wiki/Android_16"
   },
   {
     name: "Android 18",
-    race: "Android",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Android-18.jpg"
+    bio: "A character fighting in tandem with Android 17.  You can summon 17 with your special moves!  Use your well-timed combination to outsmart your enemy!  Absorb every enemy attack with your BARRIER!",
+    image: "/Assets/Characters/Android-18.jpg",
+    url: "http://dragonball.wikia.com/wiki/Android_18"
   },
   {
-    name: "Freeza",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Freeza.jpg"
+    name: "Frieza",
+    bio: "A stylish character specializing in long-range fighting.  Use your various special moves to prevent your foe from approaching you!  Be careful not to cut yourself with your DEATH SAUCER.  Transform into Golden Frieza and teach your foe what true despair means!",
+    image: "/Assets/Characters/Frieza.jpg",
+    url: "http://dragonball.wikia.com/wiki/Frieza"
   },
   {
     name: "Trunks",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Trunks.jpg"
+    bio: "A character who fights with a sword.  His sword attacks are powerful and have long range.  Once your foe lets their guard down, demolish them with your SHINING SLASH!  Approach your foe and completely eradicate them with the HEAT DOME ATTACK.",
+    image: "/Assets/Characters/Trunks.jpg",
+    url: "http://dragonball.wikia.com/wiki/Trunks"
   },
   {
     name: "Gohan",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Gohan.jpg"
+    bio: "A short-ranged, high-powered character.  Close in to your enemies to compensate for your small range.  While all of his special moves are exceedingly powerful, the FATHER-SON KAMEHAMEHA is absurdly so!",
+    image: "/Assets/Characters/Gohan.jpg",
+    url: "http://dragonball.wikia.com/wiki/Gohan"
   },
   {
     name: "Krillin",
-    race: "Human",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Krillin.jpg"
+    bio: "A character with varied moves.  Let's confuse the enemy with AFTER IMAGES.  You can heal your allies with your SENZU BEAN assist.  You can even use KAMEHAMEHA so there is no problem fighting long range.",
+    image: "/Assets/Characters/Krillin.jpg",
+    url: "http://dragonball.wikia.com/wiki/Krillin"
   },
   {
     name: "Piccolo",
-    race: "Namekian",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Piccolo.jpg"
+    bio: "A technical character with mysterious moves.  Having amassed vast battle experience and knowledge, he possesses lots of ways of opening his foe's guard.  Charge the hyper-powerful SPECIAL BEAM CANNON to the max and pierce your enemy!",
+    image: "/Assets/Characters/Piccolo.jpg",
+    url: "http://dragonball.wikia.com/wiki/Piccolo"
   },
   {
     name: "Cell",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Cell.jpg"
+    bio: "Out of everyone his are the highest traits, a perfect character.  With his easy to use special moves, this perfected Cell has no blind spots!  Plunge the entire world into the depths of fear with your devastating PERFECT ATTACK!",
+    image: "/Assets/Characters/Cell.jpg",
+    url: "http://dragonball.wikia.com/wiki/Cell"
   },
   {
     name: "Majin Buu",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Majin-Buu.jpg"
+    bio: "A character with both power and range.  Just by unleashing your powerful MOUNT DIVE your foes will be unable to do anything!  Keep innocently attacking your foe!  Let's turn bothersome enemies into candy!",
+    image: "/Assets/Characters/Majin-Buu.jpg",
+    url: "http://dragonball.wikia.com/wiki/Innocent_Buu"
   },
   {
     name: "Adult Gohan",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/AdultGohan.jpg"
+    bio: "The ultimate character with his potential unlocked!  Through his super, he can alter the function of his moves.  Unleash your hidden power and defeat your enemies!",
+    image: "/Assets/Characters/AdultGohan.jpg",
+    url: "http://dragonball.wikia.com/wiki/Gohan"
   },
   {
     name: "Beerus",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Beerus.jpg"
+    bio: "The God of Destruction has power to match such a title.  If he gets his HAKAIDAMA off, he can become difficult to approach!  He lives for the fight and snickers throughout battle.  Those who dare to face him can expect BEERUS' JUDGEMENT.",
+    image: "/Assets/Characters/Beerus.jpg",
+    url: "http://dragonball.wikia.com/wiki/Beerus"
   },
   {
     name: "Ginyu",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Ginyu.jpg"
+    bio: "Ginyu brings the whole Ginyu Force out to the field, calling out different members over the course of battle!  It's a 3v3 fight, so you'll need each member to pull out their best moves.  Remember, you can always use BODY CHARGE in a pinch!",
+    image: "/Assets/Characters/Ginyu.jpg",
+    url: "http://dragonball.wikia.com/wiki/Captain_Ginyu"
   },
   {
     name: "Goku Black",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/GokuBlack.jpg"
+    bio: "This fighter specializes in quick blows from a distance.  Players thinking of picking him up will need to master hitting and running!  With Zamasu's help, Goku Black will launch his super technique SHINRETSU KOUDAN!  Witness the strength of Super Saiyan Rose!",
+    image: "/Assets/Characters/GokuBlack.jpg",
+    url: "http://dragonball.wikia.com/wiki/Goku_Black"
   },
   {
     name: "SSJB Goku",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/GokuBlue.jpg"
+    bio: "A Super Saiyan version of a saiyan holding the power of Super Saiyan God!  With modified Super Saiyan powers, all your attacks have been enhanced!  Toy with your foe using instant transmission and finish them off with a 10x KAIOKEN KAMEHAMEHA that blows all limits away!",
+    image: "/Assets/Characters/GokuBlue.jpg",
+    url: "http://dragonball.wikia.com/wiki/Goku"
   },
   {
     name: "Gotenks",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Gotenks.jpg"
+    bio: "A comical character, throwing out absurdly flashy move names one after another...  Use CONTINUOUS DIE DIE MISSLES and SUPER GHOST KAMIKAZE ATTACK!  ",
+    image: "/Assets/Characters/Gotenks.jpg",
+    url: "http://dragonball.wikia.com/wiki/Gotenks"
   },
   {
     name: "Hit",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Hit.jpg"
+    bio: "The time skipping legend of Universe 6.  His Time-Skip ability makes him quite the foe, you'll never know what happened!  Hit just needs a few moments to charge up before launching time-breaking attacks!  Enemies won't even see his super technique, the KILLNG BLOW!",
+    image: "/Assets/Characters/Hit.jpg",
+    url: "http://dragonball.wikia.com/wiki/Hit"
   },
   {
     name: "Kid Buu",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/KidBuu.jpg"
+    bio: "A character prone to throwing out tricky moves.  He has both power and speed, you do not want him as your foe.  Let's blow everything up with the EARTH ERASING BLOW!",
+    image: "/Assets/Characters/KidBuu.jpg",
+    url: "http://dragonball.wikia.com/wiki/Kid_Buu"
   },
   {
     name: "Nappa",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Nappa.jpg"
+    bio: "Nappa brings home the beauty of raw strength!  As the Saibamen grow, they'll begin to automatically attack!  As long as you keep your cool, there is no one you can't beat!  Show them what a Saiyan can do!",
+    image: "/Assets/Characters/Nappa.jpg",
+    url: "http://dragonball.wikia.com/wiki/Nappa"
   },
   {
     name: "Tien",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Tien.jpg"
+    bio: "Tien is an easy to use character with a solid balance of abilities at his disposal.  Get an easy three hits in with a VOLLEYBALL FIST!  Expand your range of attack with TRI-BEAM but watch out, it's a double edged sword!  Don't rely on Chiaotsu too much and don't bring embarrassment to martial arts!",
+    image: "/Assets/Characters/Tien.jpg",
+    url: "http://dragonball.wikia.com/wiki/Tien_Shinhan"
   },
   {
     name: "SSJB Vegeta",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/VegetaBlue.jpg"
+    bio: "From a once standard toolset, Vegeta has now forsaken defense for greater offensive capabilities.  Contrasted with his Super Saiyan form, his offensive options have been greatly enhanced!  His BIG BANG ATTACK is a regular(meterless) special move now.  Break your enemies guard and be number one!",
+    image: "/Assets/Characters/VegetaBlue.jpg",
+    url: "http://dragonball.wikia.com/wiki/Vegeta"
   },
   {
     name: "Yamcha",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Yamcha.jpg"
+    bio: "Yamcha is a rushdown character defined by his speed.  Rush your enemies down with WOLF FANG FIST!  For slippery opponents, use SPIRIT BALL.  Your friends may complain about cheese, but who cares when you're winning!",
+    image: "/Assets/Characters/Yamcha.jpg",
+    url: "http://dragonball.wikia.com/wiki/Yamcha"
   }
 ];
 
@@ -170,7 +170,7 @@ var stats = [
     Reach: 2,
     Energy: 3,
     StatTotal: 14,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/android16Stats.png"
   },
   {
@@ -181,18 +181,18 @@ var stats = [
     Reach: 3,
     Energy: 3,
     StatTotal: 14,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/android18Stats.png"
   },
   {
-    name: "Freeza",
+    name: "Frieza",
     Power: 3,
     Speed: 3,
     Technique: 3,
     Reach: 4,
     Energy: 4,
     StatTotal: 17,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/freezaStats.png"
   },
   {
@@ -203,7 +203,7 @@ var stats = [
     Reach: 4,
     Energy: 4,
     StatTotal: 17,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/majinbuuStats.png"
   },
   {
@@ -214,7 +214,7 @@ var stats = [
     Reach: 2,
     Energy: 3,
     StatTotal: 15,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/gohanStats.png"
   },
   {
@@ -225,7 +225,7 @@ var stats = [
     Reach: 4,
     Energy: 3,
     StatTotal: 13,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/krillinStats.png"
   },
   {
@@ -236,7 +236,7 @@ var stats = [
     Reach: 4,
     Energy: 3,
     StatTotal: 16,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/piccoloStats.png"
   },
   {
@@ -247,7 +247,7 @@ var stats = [
     Reach: 3,
     Energy: 3,
     StatTotal: 17,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/cellStats.png"
   },
   {
@@ -258,7 +258,7 @@ var stats = [
     Reach: 4,
     Energy: 2,
     StatTotal: 16,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/trunksStats.png"
   },
   {
@@ -269,7 +269,7 @@ var stats = [
     Reach: 4,
     Energy: 2,
     StatTotal: 16,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/adultGohanStats.jpg"
   },
   {
@@ -280,7 +280,7 @@ var stats = [
     Reach: 5,
     Energy: 5,
     StatTotal: 21,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/beerusStats.png"
   },
   {
@@ -291,7 +291,7 @@ var stats = [
     Reach: 3,
     Energy: 4,
     StatTotal: 18,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/blackStats.png"
   },
   {
@@ -302,7 +302,7 @@ var stats = [
     Reach: 4,
     Energy: 2,
     StatTotal: 15,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/ginyuStats.png"
   },
   {
@@ -313,7 +313,7 @@ var stats = [
     Reach: 4,
     Energy: 2,
     StatTotal: 18,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/gokussbStats.png"
   },
   {
@@ -324,7 +324,7 @@ var stats = [
     Reach: 3,
     Energy: 4,
     StatTotal: 15,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/gotenksStats.jpg"
   },
   {
@@ -335,7 +335,7 @@ var stats = [
     Reach: 4,
     Energy: 1,
     StatTotal: 17,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/hitStats.png"
   },
   {
@@ -346,7 +346,7 @@ var stats = [
     Reach: 4,
     Energy: 4,
     StatTotal: 19,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/kidBuuStats.jpg"
   },
   {
@@ -357,7 +357,7 @@ var stats = [
     Reach: 3,
     Energy: 2,
     StatTotal: 14,
-    "Ease of use": "SS",
+    "Ease of use": "A",
     StatImg: "/Assets/Character-Statsheets/nappaStats.png"
   },
   {
@@ -368,7 +368,7 @@ var stats = [
     Reach: 3,
     Energy: 2,
     StatTotal: 14,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/tienStats.png"
   },
   {
@@ -379,7 +379,7 @@ var stats = [
     Reach: 3,
     Energy: 4,
     StatTotal: 18,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/vegetassbStats.png"
   },
   {
@@ -390,7 +390,7 @@ var stats = [
     Reach: 3,
     Energy: 2,
     StatTotal: 13,
-    "Ease of use": "SS",
+    "Ease of use": "S",
     StatImg: "/Assets/Character-Statsheets/yamchaStats.png"
   }
 ];

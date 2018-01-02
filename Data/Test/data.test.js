@@ -4,9 +4,9 @@ const code = require("../data");
 var data1 = [
   {
     name: "Goku",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
-    image: "/Assets/Characters/Goku.jpg"
+    bio: "The all-rounder anyone can use!  An easy to use fighter, recommended for beginners.  Use your KAMEHAMEHA to get out of a pinch!  KAMEHAMEHA can one-sidedly crush your foes!",
+    image: "/Assets/Characters/Goku.jpg",
+    url: "http://dragonball.wikia.com/wiki/Goku"
   }
 ];
 
@@ -27,9 +27,9 @@ var data2 = [
 var combinedResult = [
   {
     name: "Goku",
-    race: "Saiyan",
-    bio: "The all-rounder anyone can use!",
+    bio: "The all-rounder anyone can use!  An easy to use fighter, recommended for beginners.  Use your KAMEHAMEHA to get out of a pinch!  KAMEHAMEHA can one-sidedly crush your foes!",
     image: "/Assets/Characters/Goku.jpg",
+    url: "http://dragonball.wikia.com/wiki/Goku",
     Power: 4,
     Speed: 2,
     Technique: 3,
